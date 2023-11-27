@@ -1,12 +1,12 @@
-NAME : ARUNKUMAR BAIRAVAN
+NAME : SHAKTHI SIVANI G
 
-BATCH: DW60DW61
+BATCH: D83
 
 DOMAIN : DATA SCIENCE
 
-DEMO VIDEO URL: https://youtu.be/2yZuVhzRN9U 
+DEMO VIDEO URL: https://youtu.be/_tTpgWF16uY
 
-LINKED IN URL : https://www.linkedin.com/feed/update/urn:li:activity:7113461297735729152/
+LINKED IN URL : www.linkedin.com/in/shakthi-sivani-g-939658294
 
 Problem Statement:
 The copper industry deals with less complex data related to sales and pricing. However, this data may suffer from issues such as skewness and noisy data, which can affect the accuracy of manual predictions. Dealing with these challenges manually can be time-consuming and may not result in optimal pricing decisions. A machine learning regression model can address these issues by utilizing advanced techniques such as data normalization, feature scaling, and outlier detection, and leveraging algorithms that are robust to skewed and noisy data. 
