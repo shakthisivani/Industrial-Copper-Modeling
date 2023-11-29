@@ -79,15 +79,15 @@ with tab1:
     if submit_button and flag == 0:
         import pickle
 
-        with open(r"C:\\Users\\arunk\\OneDrive\\Desktop\\Data Science\\Project 5-Industrial Copper Modeling\\model.pkl", 'rb') as file:
+        with open(r"C:\\Users\\shakthi\\OneDrive\\Desktop\\Data Science\\Project 5-Industrial Copper Modeling\\model.pkl", 'rb') as file:
             loaded_model = pickle.load(file)
-        with open(r"C:\\Users\\arunk\\OneDrive\\Desktop\\Data Science\\Project 5-Industrial Copper Modeling\\scaler.pkl", 'rb') as f:
+        with open(r"C:\\Users\\shakthi\\OneDrive\\Desktop\\Data Science\\Project 5-Industrial Copper Modeling\\scaler.pkl", 'rb') as f:
             scaler_loaded = pickle.load(f)
 
-        with open(r"C:\\Users\\arunk\\OneDrive\\Desktop\\Data Science\\Project 5-Industrial Copper Modeling\\t.pkl", 'rb') as f:
+        with open(r"C:\\Users\\shakthi\\OneDrive\\Desktop\\Data Science\\Project 5-Industrial Copper Modeling\\t.pkl", 'rb') as f:
             t_loaded = pickle.load(f)
 
-        with open(r"C:\\Users\\arunk\\OneDrive\\Desktop\\Data Science\\Project 5-Industrial Copper Modeling\\s.pkl", 'rb') as f:
+        with open(r"C:\\Users\\shakthi\\OneDrive\\Desktop\\Data Science\\Project 5-Industrial Copper Modeling\\s.pkl", 'rb') as f:
             s_loaded = pickle.load(f)
 
         new_sample = np.array([[np.log(float(quantity_tons)), application, np.log(float(thickness)), float(width),
@@ -135,13 +135,13 @@ with tab2:
     if csubmit_button and cflag == 0:
         import pickle
 
-        with open(r"C:\\Users\\arunk\\OneDrive\\Desktop\\Data Science\\Project 5-Industrial Copper Modeling\\clsmodel.pkl", 'rb') as file:
+        with open(r"C:\\Users\\shakthi\\OneDrive\\Desktop\\Data Science\\Project 5-Industrial Copper Modeling\\clsmodel.pkl", 'rb') as file:
             cloaded_model = pickle.load(file)
 
-        with open(r"C:\\Users\\arunk\\OneDrive\\Desktop\\Data Science\\Project 5-Industrial Copper Modeling\\cscaler.pkl", 'rb') as f:
+        with open(r"C:\\Users\\shakthi\\OneDrive\\Desktop\\Data Science\\Project 5-Industrial Copper Modeling\\cscaler.pkl", 'rb') as f:
             cscaler_loaded = pickle.load(f)
 
-        with open(r"C:\\Users\\arunk\\OneDrive\\Desktop\\Data Science\\Project 5-Industrial Copper Modeling\\ct.pkl", 'rb') as f:
+        with open(r"C:\\Users\\shakthi\\OneDrive\\Desktop\\Data Science\\Project 5-Industrial Copper Modeling\\ct.pkl", 'rb') as f:
             ct_loaded = pickle.load(f)
 
         # Predict the status for a new sample
@@ -158,4 +158,4 @@ with tab2:
         else:
             st.write('## :red[The status is Lost] ')
 
-st.write(f'<h6 style="color:#ee4647;">App Created by Arunkumar Bairavan</h6>', unsafe_allow_html=True)
+st.write(f'<h6 style="color:#ee4647;">App Created by SHAKTHI SIVANI G</h6>', unsafe_allow_html=True)
